@@ -96,31 +96,28 @@ main {
 }
 
 /* Courses styels starts here */
-.courses{
-    display: grid;
-   grid-template-columns: repeat(3,1fr);
-   grid-column-gap: 24px;
+.courses {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 24px;
 }
-.course{
-    width: 250px;
-   display: flex;
-   flex-direction: column;
-   justify-content: center;
-   
-   
+.course {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 .course-banner img {
   width: 224px;
   height: 104px;
 }
 
-
-.course-info{
-    display:flex;
-    justify-content: space-between;
+.course-info {
+  display: flex;
+  justify-content: space-between;
 }
 .fa-star {
- font-size: 12px;
+  font-size: 12px;
 }
 .fa-star.filled {
   color: #ffc014;
@@ -130,9 +127,9 @@ main {
   color: #aeaeae;
 }
 
-.course-duration{
-    background-color:#FFE4E8 ;
-    border: 1px solid gray;
-    border-radius: 10px;
-    padding: 2px;
+.course-duration {
+  background-color: #ffe4e8;
+  border: 1px solid gray;
+  border-radius: 10px;
+  padding: 2px;
 }
